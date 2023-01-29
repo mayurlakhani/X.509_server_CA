@@ -1,0 +1,12 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:keystore.jks
+    key-store-password: mayur1081994
+    trust-store: classpath:truststore.jks
+    trust-store-password: mayur1081994
+    client-auth: need
+security:
+  headers:
+    hsts: NONE
